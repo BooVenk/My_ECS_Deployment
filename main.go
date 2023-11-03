@@ -8,6 +8,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(r.URL.RawQuery)
+	fmt.Println(r.URL.RawQuery)
 	fmt.Fprintf(w, `
           ##         .
     ## ## ##        ==
